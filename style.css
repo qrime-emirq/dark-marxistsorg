@@ -1,0 +1,76 @@
+* {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body, body * {
+  color: #a9a9b3;
+  background: #232425;
+  background-color: #232425;
+}
+
+div.border, div.border * {
+  background: inherit;
+}
+
+div.border {
+  border: 0.5em solid #bbaaff;
+}
+
+tr td *, td.main *, tr * {
+text-align: center;
+}
+
+p.fst, p.footer, p.index, p.toc, p.indentb {
+text-align: center;
+}
+
+a * {
+  color: #e9c9c3;
+}
+/* unvisited link */
+a:link, a.mecw:link, a.small:link, a.member:link, a.writer:link {
+  color: #e9c9c3;
+}
+
+/* visited link */
+a:visited, a.mcw:visited, a.small:visited, a.member:visited, a.writer:visited {
+  color: #bbaaff;
+}
+
+/* mouse over link */
+a:hover, a.mecw:hover, a.small:hover, a.member:hover, a.writer:hover {
+  color: #a9a9b3;
+}
+
+/* selected link */
+a:active, a.mecw:active, a.small:active, a.member:active, a.writer:active {
+  color: #e9c9cc;
+}
+
+p.information * {
+color: #a9a9b3;
+}
+
+p.information, td.note {
+border: 2px solid #999999;
+border-radius: 12px;
+padding: 5px;
+color: #a9a9b3;
+}
+
+hr.end {
+display: none;
+}
+
+p.bubble img {
+padding-left: 10px;
+padding-right: 10px;
+margin: 0;
+border: none;
+}
